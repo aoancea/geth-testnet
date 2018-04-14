@@ -1,0 +1,42 @@
+=============== Mar 31, 2018 (EEST) ===============
+23:08:35.401708 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:08:35.443208 db@open opening
+23:08:35.452208 version@stat F·[] S·0B[] Sc·[]
+23:08:35.509207 db@janitor F·2 G·0
+23:08:35.509207 db@open done T·65.9992ms
+=============== Mar 31, 2018 (EEST) ===============
+23:19:51.651642 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:19:51.652642 version@stat F·[] S·0B[] Sc·[]
+23:19:51.652642 db@open opening
+23:19:51.652642 journal@recovery F·1
+23:19:51.655142 journal@recovery recovering @1
+23:19:51.682642 memdb@flush created L0@2 N·34 S·2KiB "\x03\x95\x06..\v_I,v12":"\xd2Bk..\xec\xfc\x19,v22"
+23:19:51.691144 version@stat F·[1] S·2KiB[2KiB] Sc·[0.25]
+23:19:51.742641 db@janitor F·3 G·0
+23:19:51.742641 db@open done T·89.9989ms
+23:19:51.747143 db@close closing
+23:19:51.752141 db@close done T·4.9983ms
+=============== Mar 31, 2018 (EEST) ===============
+23:29:12.157548 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:29:12.158049 version@stat F·[1] S·2KiB[2KiB] Sc·[0.25]
+23:29:12.158049 db@open opening
+23:29:12.158049 journal@recovery F·1
+23:29:12.160047 journal@recovery recovering @3
+23:29:12.199578 memdb@flush created L0@5 N·3 S·387B "Blo..ion,v37":"eth..\x15\x98%,v36"
+23:29:12.207578 version@stat F·[2] S·2KiB[2KiB] Sc·[0.50]
+23:29:12.258080 db@janitor F·4 G·0
+23:29:12.258080 db@open done T·100.0314ms
+23:29:12.262078 db@close closing
+23:29:12.268577 db@close done T·6.4999ms
+=============== Mar 31, 2018 (EEST) ===============
+23:31:34.466561 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:31:34.466561 version@stat F·[2] S·2KiB[2KiB] Sc·[0.50]
+23:31:34.466561 db@open opening
+23:31:34.466561 journal@recovery F·1
+23:31:34.468561 journal@recovery recovering @6
+23:31:34.511572 memdb@flush created L0@8 N·3 S·387B "Blo..ion,v41":"eth..\x15\x98%,v40"
+23:31:34.519571 version@stat F·[3] S·2KiB[2KiB] Sc·[0.75]
+23:31:34.567572 db@janitor F·5 G·0
+23:31:34.567572 db@open done T·101.0112ms
+23:31:34.572073 db@close closing
+23:31:34.577572 db@close done T·5.4989ms
