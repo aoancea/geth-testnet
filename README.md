@@ -15,6 +15,7 @@ To be able to run it, follow the bellow steps:
 5. in the same cmd run `geth --datadir=.\chaindata --rpc --rpccorsdomain="*" --rpcport="8545" --minerthreads="1" --mine --nodiscover --maxpeers=0 --unlock 0 console --rpcapi="eth,net,web3,personal,miner"` which will start the private chain
 6. open another cmd and run `geth attach http://127.0.0.1:8545` which will attach to the current running chain
 
+Note: You can also import your geth accounts into MetaMask by using the file stored inside the `keystore` folder and with your passphrase. The passprash for the accounts on this blockchain is `test1`
 
 # Resources
 - https://www.youtube.com/watch?v=1sskorISHic
