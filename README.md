@@ -13,7 +13,7 @@ To be able to run it, follow the bellow steps:
 3. create a new file `genesis.json` and fill it with the `genesis.json` found in this repository - read more about it here https://github.com/ethereum/go-ethereum/wiki/Private-network#creating-the-genesis-block
 4. open a cmd and run `geth --datadir=.\chaindata init .\genesis.json` - this will create the private chain at the directory we're just created at 2.
 5. in the same cmd run `geth --datadir=.\chaindata --rpc --rpccorsdomain="*" --rpcport="8545" --minerthreads="1" --mine --nodiscover --maxpeers=0 --unlock 0 console --rpcapi="eth,net,web3,personal,miner"` which will start the private chain
-6. open another cmd and run `geth attach ipc:\\.\pipe\geth.ipc` which will attach to the current running chain
+6. open another cmd and run `geth attach http://127.0.0.1:8545` which will attach to the current running chain
 
 
 # Resources
